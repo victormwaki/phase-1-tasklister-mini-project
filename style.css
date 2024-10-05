@@ -34,4 +34,21 @@ button {
   padding: 15px 20px 18px 18px;
   border-radius: 5px;
   box-shadow: 2px 5px 5px #333;
+  
 }
+
+ul li button {
+  position: relative;
+  /* display: inline-block; */
+  text-align: center;
+  /* top: 0px; 
+  width: 20px;
+  height: 20px; */
+  margin: 0 0 0px 16px;
+  border-radius: 50%;
+  border: none;
+}
+/* 
+ul li span:hover {
+  color: #333;
+} */
