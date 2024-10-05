@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         // Create a delete button for the task
         const deleteBtn = document.createElement("button");
-        deleteBtn.innerHTML = "❌";  // You can use an icon or just 'X'
+        deleteBtn.innerHTML = "\u00d7";  // You can use an icon or just 'X'
         deleteBtn.style.marginLeft = "10px";  // Add a little space between task and button
 
         // Append the delete button to the task (li)
